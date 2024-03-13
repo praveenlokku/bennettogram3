@@ -12,7 +12,6 @@ body{
     border-right: 1px solid black;
     border-left: 1px solid black;
     padding-top: 10px;
-    background-color: #e6ccb2;
     z-index: auto;
     display: flex;
 }
