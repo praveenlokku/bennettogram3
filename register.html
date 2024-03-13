@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            REGISTER BENNETTOGRAM
+        </title>
+        <link rel="STYLESHEET" href="register.css">
+        <link rel="icon" type="image/png" href="./WhatsApp Image 2024-03-13 at 10.40.00_03fd9c2a.jpg">
+    </head>
+    <body>
+        <div id="divi">
+            <h2 style="color: black; position: absolute; top: 12%; left: 22%;">
+                REGISTER HERE!!!
+            </h2>
+            <input type="email" id="emailask" placeholder="Enter your EMAIL ID" required>
+            <h3 id="crepass">Create password</h3>
+            <input type="password" id="Passcreate" placeholder="Create a passcode" required>
+            <h3 id="cnfpass"> Conform password</h3>
+            <input type="password" id="confirm_pass" placeholder="conform password" required>
+            <button type="verify" id="emailverify" onclick="verifyemail()">verify email</button>
+            <button type="submit" id="verify" onclick="signinclick()" style="background-color: black; color:aliceblue; height: auto; width: 150px;">SIGNIN</button>
+        </div>
+        <script>
+            function verifyemail() {
+                var Email = document.getElementById('emailask').value;
+                var pass1 = document.getElementById("Passcreate").value;
+                var pass2 = document.getElementById("confirm_pass").value;
+                if (!Email || !pass1 || !pass2) {
+        alert("Please fill in all required fields.");
+        return;
+    }
+                if (pass1 === pass2) {
+                    alert("Registration Successful!");
+                } else {
+                    alert("Invalid Credentials");
+                }
+            }
+            function signinclick() {
+                var Email = document.getElementById('emailask').value;
+                if (!Email.endsWith('.com')) {
+                    alert("Invalid credentials");
+                } else {
+                    window.location.href = "signin.html";
+                }
+            }
+        </script>
+    </body>
+</html> 

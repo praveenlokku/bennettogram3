@@ -1,0 +1,69 @@
+body{
+    background-color: #ede0d4;
+    display: flex;
+}
+#divi{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    width: 400px;
+    height: 130px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding-top: 10px;
+    background-color: #e6ccb2;
+    z-index: auto;
+    display: flex;
+}
+#instiinp{
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    width: 96%;
+    height: 30px;
+    border-radius: 2%;
+    z-index: auto;
+    display: flex;
+}
+#fillsay{
+    position: absolute;
+    top: 58%;
+    left: 1%;
+    z-index: auto;
+    display: flex;
+}
+p{
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    z-index: auto;
+    display: flex;
+}
+#image{
+    position: absolute;
+    height: 200px;
+    border-radius: 100%;
+    width: 200px;
+    left: 45%;
+    top: 20%;
+    z-index: auto;
+    display: flex;
+}
+h5{
+    position: absolute;
+    left: 47%;
+    top: 36%;
+    z-index: 1;
+    display: flex;
+}
+#submit{
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    z-index: 2;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Bennettogram
+        </title>
+        <link rel="Stylesheet" href="index.css">
+        <link rel="icon" type="image/png" href="./WhatsApp Image 2024-03-13 at 10.40.00_03fd9c2a.jpg">
+    </head>
+    <body>
+        <img id="image" src="./WhatsApp_Image_2024-03-13_at_10.21.43_434561bd-removebg-preview.png" alt="logo">
+        <div id="divi"><p id="hel">Select your institution</p>
+            <input type="text" id="instiinp" placeholder="Select your institution">
+        <p id="fillsay"> Please fill 3 or more characters</p>
+        <button id="submit" onclick="submitForm()">submit</button>
+        </div>
+        <script>
+            function submitForm() {
+                var instiinp = document.getElementById("instiinp").value;
+                if (instiinp.toLowerCase() === "bennett university" || instiinp === "BU" || instiinp === "Bu" || instiinp === "Benntt University" || instiinp === "bu" || instiinp === "Bennett university") {
+                    window.location.href = "signin.html";
+                } else {
+                    alert("Please check your institution name.");
+                }
+            }
+        </script>
+        
+    </body>
+</html>

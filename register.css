@@ -1,0 +1,80 @@
+body{
+    background-color: #ede0d4;
+    display: flex;
+}
+#divi{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 400px;
+    height: 400px;
+    background-color: #e6ccb2;
+    color: aliceblue;
+    display: flex;
+
+}
+#emailask{
+    position: absolute;
+    left: 18%;
+    top: 30%;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    display: flex;
+
+}
+#Passcreate{
+    position: absolute;
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    top: 49.5%;
+    left: 18%;
+    display: flex;
+
+}
+#confirm_pass{
+    position: absolute;
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    top: 66.5%;
+    left: 18%;
+    display: flex;
+
+}
+#emailverify{
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 76%;
+    left: 70%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+
+}
+#verify{
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 82%;
+    left: 30%;
+    display: flex;
+
+}
+#cnfpass{
+    position: absolute;
+    top: 53%;
+    left: 30px;
+    color: black;
+    display: flex;
+
+}
+#crepass{
+    position: absolute;
+    top: 36%;
+    left: 30px;
+    color: black;
+    display: flex;
+}
